@@ -3,6 +3,7 @@ import NewHeroSection from '@/components/sections/NewHeroSection';
 import ServicesSection from '@/components/sections/ServicesSection';
 import Calculator from '@/components/sections/Calculator';
 import SubscriptionSection from '@/components/sections/SubscriptionSection';
+import AdditionalServicesNew from '@/components/sections/AdditionalServicesNew';
 import ContactForm from '@/components/sections/ContactForm';
 import NewFooter from '@/components/sections/NewFooter';
 
@@ -14,6 +15,7 @@ export default function NewIndex() {
       <ServicesSection />
       <Calculator />
       <SubscriptionSection />
+      <AdditionalServicesNew />
       <ContactForm />
       <NewFooter />
       

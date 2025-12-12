@@ -155,7 +155,7 @@ export default function Calculator() {
                 value={location}
                 onChange={(e) => setLocation(e.target.value)}
               >
-                <option value="moscow">Москва / Московская область</option>
+                <option value="moscow">Екатеринбург / Свердловская область</option>
                 <option value="region500">Регионы (до 500 км) — +15%</option>
                 <option value="region500plus">Регионы (500+ км) — +30% + командировочные</option>
               </select>

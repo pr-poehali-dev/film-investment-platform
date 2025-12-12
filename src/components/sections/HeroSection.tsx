@@ -41,9 +41,14 @@ export default function HeroSection() {
       </nav>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 md:px-6 text-center text-white animate-fade-in-up">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
-          Сэкономьте до 4.7M₽ в год на сервисе ЧПУ-оборудования
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
+          Ваше ЧПУ-оборудование работает
+          <br />
+          24/7 без простоев и поломок
         </h1>
+        <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed">
+          «Пумори 360» — регулярное обслуживание, быстрая поддержка и предсказуемые расходы
+        </p>
       </div>
     </section>
   );

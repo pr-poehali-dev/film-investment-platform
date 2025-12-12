@@ -14,15 +14,21 @@ export default {
 			center: true,
 			padding: '2rem',
 			screens: {
-				'2xl': '1400px'
+				'2xl': '1440px'
 			}
 		},
 		extend: {
 			fontFamily: {
-				montserrat: ['Montserrat', 'sans-serif'],
-				openSans: ['Open Sans', 'sans-serif'],
-				robotoMono: ['Roboto Mono', 'monospace'],
-				robotoCondensed: ['Roboto Condensed', 'sans-serif'],
+				sans: ['Inter', 'sans-serif'],
+				mono: ['Roboto Mono', 'monospace'],
+			},
+			spacing: {
+				'xs': '8px',
+				'sm': '16px',
+				'md': '24px',
+				'lg': '32px',
+				'xl': '48px',
+				'xxl': '64px',
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -32,11 +38,13 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					dark: 'hsl(var(--primary-dark))',
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+					grey: 'hsl(var(--secondary-grey))',
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',

@@ -17,7 +17,6 @@ export default function HowItWorks() {
         '47-точечная проверка',
         'Отчёт + смета за 24-48 часов',
       ],
-      conversion: '40%',
     },
     {
       number: 2,
@@ -29,7 +28,6 @@ export default function HowItWorks() {
         'Качественный ремонт',
         'Гарантия: 6-12 месяцев',
       ],
-      conversion: '60%',
     },
     {
       number: 3,
@@ -40,7 +38,6 @@ export default function HowItWorks() {
         'Регулярное ТО по графику',
         'Станок работает стабильно',
       ],
-      conversion: '30%',
     },
   ];
 
@@ -76,7 +73,7 @@ export default function HowItWorks() {
 
                 <h3 className="text-2xl font-bold text-center mb-6">{step.title}</h3>
 
-                <ul className="space-y-3 mb-6">
+                <ul className="space-y-3">
                   {step.items.map((item, idx) => (
                     <li key={idx} className="flex items-start gap-2">
                       <span className="text-primary">•</span>
@@ -84,32 +81,9 @@ export default function HowItWorks() {
                     </li>
                   ))}
                 </ul>
-
-                <div className="text-center pt-4 border-t">
-                  <p className="text-sm text-muted-foreground">Конверсия</p>
-                  <p className="text-2xl font-bold text-success">{step.conversion}</p>
-                </div>
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="bg-success/10 rounded-2xl p-8 mb-8">
-          <p className="text-center text-xl mb-4">💰 Итоговая выручка с 100 холодных звонков:</p>
-          <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
-            <div className="text-center">
-              <p className="text-sm text-muted-foreground">Ремонты:</p>
-              <p className="text-2xl font-bold">2,400,000 ₽</p>
-            </div>
-            <div className="text-center">
-              <p className="text-sm text-muted-foreground">Подписки:</p>
-              <p className="text-2xl font-bold">6,720,000 ₽</p>
-            </div>
-            <div className="text-center">
-              <p className="text-sm text-muted-foreground">ИТОГО:</p>
-              <p className="text-3xl font-bold text-success">9,120,000 ₽</p>
-            </div>
-          </div>
         </div>
 
         <div className="text-center">

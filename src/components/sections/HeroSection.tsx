@@ -40,52 +40,50 @@ export default function HeroSection() {
         </div>
       </nav>
 
-      <div className="relative z-10 max-w-5xl mx-auto px-4 md:px-6 text-center text-white animate-fade-in-up">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
-          Ваше ЧПУ-оборудование работает
-          <br />
-          24/7 без простоев и поломок
+      <div className="relative z-10 max-w-4xl mx-auto px-4 md:px-6 text-center text-white animate-fade-in-up mt-24 md:mt-0">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-snug mb-5">
+          Ваше ЧПУ-оборудование работает 24/7 без простоев и поломок
         </h1>
-        <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed mb-10">
+        <p className="text-base sm:text-lg md:text-xl text-white/90 mb-8">
           «Пумори 360» — регулярное обслуживание, быстрая поддержка и предсказуемые расходы
         </p>
 
         <Button 
           onClick={scrollToForm} 
           size="lg" 
-          className="bg-accent hover:bg-accent/90 text-white font-bold shadow-xl hover:scale-105 transition-transform w-[220px] h-[56px] text-lg"
+          className="bg-accent hover:bg-accent/90 text-white font-semibold shadow-lg transition-all w-[220px] h-[52px] text-base"
         >
-          <Icon name="Wrench" className="w-5 h-5 mr-2" />
+          <Icon name="Wrench" className="w-4 h-4 mr-2" />
           Получить бесплатный аудит
         </Button>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10 text-left max-w-4xl mx-auto">
-          <div className="flex items-start gap-3">
-            <Icon name="Check" className="w-5 h-5 text-success flex-shrink-0 mt-1" />
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mt-8 text-left max-w-3xl mx-auto">
+          <div className="flex items-start gap-2">
+            <Icon name="Check" className="w-4 h-4 text-success flex-shrink-0 mt-0.5" />
             <div>
-              <p className="font-semibold text-sm">Платите от 30,000 ₽/мес</p>
-              <p className="text-white/80 text-xs">всё включено</p>
+              <p className="font-medium text-xs">Платите от 30,000 ₽/мес</p>
+              <p className="text-white/70 text-xs">всё включено</p>
             </div>
           </div>
-          <div className="flex items-start gap-3">
-            <Icon name="Check" className="w-5 h-5 text-success flex-shrink-0 mt-1" />
+          <div className="flex items-start gap-2">
+            <Icon name="Check" className="w-4 h-4 text-success flex-shrink-0 mt-0.5" />
             <div>
-              <p className="font-semibold text-sm">Реакция от 1 часа</p>
-              <p className="text-white/80 text-xs">по договору SLA</p>
+              <p className="font-medium text-xs">Реакция от 1 часа</p>
+              <p className="text-white/70 text-xs">по договору SLA</p>
             </div>
           </div>
-          <div className="flex items-start gap-3">
-            <Icon name="Check" className="w-5 h-5 text-success flex-shrink-0 mt-1" />
+          <div className="flex items-start gap-2">
+            <Icon name="Check" className="w-4 h-4 text-success flex-shrink-0 mt-0.5" />
             <div>
-              <p className="font-semibold text-sm">Запчасти на складе</p>
-              <p className="text-white/80 text-xs">доставка за 4 часа</p>
+              <p className="font-medium text-xs">Запчасти на складе</p>
+              <p className="text-white/70 text-xs">доставка за 4 часа</p>
             </div>
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col items-center animate-bounce-slow">
-          <p className="text-white/70 text-sm mb-2">Узнать, как это работает</p>
-          <Icon name="ChevronDown" className="w-8 h-8 text-white/60" />
+        <div className="mt-10 flex flex-col items-center animate-bounce-slow">
+          <p className="text-white/70 text-xs mb-1">Узнать, как это работает</p>
+          <Icon name="ChevronDown" className="w-6 h-6 text-white/60" />
         </div>
       </div>
     </section>

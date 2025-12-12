@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700&family=Roboto+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600;700;800&family=Roboto+Condensed:wght@700&family=Roboto+Mono:wght@700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -27,8 +27,11 @@
     --accent: 16 100% 60%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 100% 38%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 100 42% 49%;
+    --success-foreground: 0 0% 100%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;

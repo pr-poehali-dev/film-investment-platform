@@ -1,23 +1,31 @@
-import Header from "@/components/landing/Header";
-import HeroSection from "@/components/landing/HeroSection";
-import MainContent from "@/components/landing/MainContent";
-import AuditForm from "@/components/landing/AuditForm";
-import Footer from "@/components/landing/Footer";
+import HeroSection from '@/components/sections/HeroSection';
+import PainPoints from '@/components/sections/PainPoints';
+import Solution from '@/components/sections/Solution';
+import ROICalculator from '@/components/sections/ROICalculator';
+import Pricing from '@/components/sections/Pricing';
+import HowItWorks from '@/components/sections/HowItWorks';
+import CaseStudies from '@/components/sections/CaseStudies';
+import FAQ from '@/components/sections/FAQ';
+import About from '@/components/sections/About';
+import AdditionalServices from '@/components/sections/AdditionalServices';
+import ContactForm from '@/components/sections/ContactForm';
+import Footer from '@/components/sections/Footer';
 
-const Index = () => {
-  const scrollToForm = () => {
-    document.getElementById("audit-form")?.scrollIntoView({ behavior: "smooth" });
-  };
-
+export default function Index() {
   return (
-    <div className="min-h-screen bg-secondary">
-      <Header />
-      <HeroSection scrollToForm={scrollToForm} />
-      <MainContent scrollToForm={scrollToForm} />
-      <AuditForm />
+    <div className="min-h-screen">
+      <HeroSection />
+      <PainPoints />
+      <Solution />
+      <ROICalculator />
+      <Pricing />
+      <HowItWorks />
+      <CaseStudies />
+      <FAQ />
+      <About />
+      <AdditionalServices />
+      <ContactForm />
       <Footer />
     </div>
   );
-};
-
-export default Index;
+}

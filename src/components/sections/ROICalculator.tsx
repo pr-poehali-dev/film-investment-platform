@@ -58,7 +58,7 @@ export default function ROICalculator() {
                   <label className="font-semibold">Количество станков ЧПУ:</label>
                   <span className="text-primary font-bold text-lg">{machines} шт</span>
                 </div>
-                <Slider value={[machines]} onValueChange={(v) => setMachines(v[0])} min={1} max={20} step={1} />
+                <Slider defaultValue={[5]} value={[machines]} onValueChange={(v) => setMachines(v[0])} min={1} max={20} step={1} />
                 <p className="text-sm text-muted-foreground mt-2">От 1 до 20</p>
               </div>
 
@@ -67,7 +67,7 @@ export default function ROICalculator() {
                   <label className="font-semibold">Стоимость часа простоя:</label>
                   <span className="text-primary font-bold text-lg">{downtimeCost.toLocaleString()} ₽/час</span>
                 </div>
-                <Slider value={[downtimeCost]} onValueChange={(v) => setDowntimeCost(v[0])} min={5000} max={50000} step={1000} />
+                <Slider defaultValue={[15000]} value={[downtimeCost]} onValueChange={(v) => setDowntimeCost(v[0])} min={5000} max={50000} step={1000} />
                 <p className="text-sm text-muted-foreground mt-2">Потери при остановке производства</p>
               </div>
 
@@ -76,7 +76,7 @@ export default function ROICalculator() {
                   <label className="font-semibold">Поломок в год (сейчас):</label>
                   <span className="text-primary font-bold text-lg">{breakdowns} раз</span>
                 </div>
-                <Slider value={[breakdowns]} onValueChange={(v) => setBreakdowns(v[0])} min={1} max={20} step={1} />
+                <Slider defaultValue={[8]} value={[breakdowns]} onValueChange={(v) => setBreakdowns(v[0])} min={1} max={20} step={1} />
                 <p className="text-sm text-muted-foreground mt-2">Сколько аварийных ремонтов было в прошлом году?</p>
               </div>
 
@@ -85,7 +85,7 @@ export default function ROICalculator() {
                   <label className="font-semibold">Средний простой:</label>
                   <span className="text-primary font-bold text-lg">{downtimeHours} часов</span>
                 </div>
-                <Slider value={[downtimeHours]} onValueChange={(v) => setDowntimeHours(v[0])} min={12} max={168} step={12} />
+                <Slider defaultValue={[48]} value={[downtimeHours]} onValueChange={(v) => setDowntimeHours(v[0])} min={12} max={168} step={12} />
                 <p className="text-sm text-muted-foreground mt-2">Сколько времени станок не работает при поломке</p>
               </div>
 
@@ -94,7 +94,7 @@ export default function ROICalculator() {
                   <label className="font-semibold">Стоимость аварийного ремонта:</label>
                   <span className="text-primary font-bold text-lg">{emergencyRepairCost.toLocaleString()} ₽</span>
                 </div>
-                <Slider value={[emergencyRepairCost]} onValueChange={(v) => setEmergencyRepairCost(v[0])} min={50000} max={300000} step={10000} />
+                <Slider defaultValue={[120000]} value={[emergencyRepairCost]} onValueChange={(v) => setEmergencyRepairCost(v[0])} min={50000} max={300000} step={10000} />
                 <p className="text-sm text-muted-foreground mt-2">Средний чек экстренного ремонта</p>
               </div>
 

@@ -165,27 +165,27 @@ export default function ContactForm() {
             <div className="bg-white rounded-2xl p-8 shadow-lg">
               <h3 className="text-2xl font-bold mb-6">📞 Или позвоните нам:</h3>
 
-              <a href="tel:+74951234567" className="text-3xl font-bold text-primary hover:text-primary/80 block mb-2">
-                +7 (495) 123-45-67
+              <a href="tel:+73432873058" className="text-3xl font-bold text-primary hover:text-primary/80 block mb-2">
+                +7 (343) 287-30-58
               </a>
-              <p className="text-muted-foreground mb-6">Пн-Пт: 9:00-18:00, Сб-Вс: выходной</p>
+              <p className="text-muted-foreground mb-6">Пн-Пт: 9:00-18:00</p>
 
-              <h4 className="font-bold mb-4">💬 Напишите в мессенджер:</h4>
-              <div className="flex gap-4">
-                <Button variant="outline" size="lg" className="flex-1">
-                  <Icon name="MessageCircle" className="w-5 h-5 mr-2" />
-                  WhatsApp
-                </Button>
-                <Button variant="outline" size="lg" className="flex-1">
+              <h4 className="font-bold mb-4">💬 Напишите в Telegram:</h4>
+              <a 
+                href="https://t.me/pumori_service" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline" size="lg" className="w-full">
                   <Icon name="Send" className="w-5 h-5 mr-2" />
                   Telegram
                 </Button>
-              </div>
+              </a>
 
               <div className="mt-6 pt-6 border-t">
                 <p className="text-muted-foreground">📧 Email:</p>
-                <a href="mailto:info@pumori360.ru" className="text-lg font-semibold text-primary hover:underline">
-                  info@pumori360.ru
+                <a href="mailto:pii@pumori.ru" className="text-lg font-semibold text-primary hover:underline">
+                  pii@pumori.ru
                 </a>
               </div>
             </div>

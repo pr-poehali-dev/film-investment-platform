@@ -50,21 +50,20 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Контакты</h4>
             <div className="space-y-3 text-sm">
-              <p className="text-white/60">Москва, ул. Промышленная, 12</p>
-              <a href="tel:+74951234567" className="block text-white hover:text-accent transition">
-                +7 (495) 123-45-67
+              <p className="text-white/60">620085, г. Екатеринбург, ул. Монтерская, стр. 3, оф. 206/1</p>
+              <a href="tel:+73432873058" className="block text-white hover:text-accent transition">
+                +7 (343) 287-30-58
               </a>
-              <a href="mailto:info@pumori360.ru" className="block text-white hover:text-accent transition">
-                info@pumori360.ru
+              <a href="mailto:pii@pumori.ru" className="block text-white hover:text-accent transition">
+                pii@pumori.ru
               </a>
               <p className="text-white/60">Пн-Пт: 9:00-18:00</p>
-              <p className="text-white/60">Сб-Вс: выходной</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-white/10 pt-8 text-center text-white/60 text-sm">
-          <p>© 2025 ООО "Пумори". Все права защищены.</p>
+          <p>© 2025 ООО "ПРОМИНЖЕНЕРИНВЕСТ". Все права защищены.</p>
           <p className="mt-2">ИНН: 1234567890 | ОГРН: 1234567890123</p>
         </div>
       </div>

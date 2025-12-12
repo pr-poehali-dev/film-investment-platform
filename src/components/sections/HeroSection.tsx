@@ -23,8 +23,8 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row items-center gap-3 md:gap-6">
-          <a href="tel:+74951234567" className="text-white text-sm md:text-base font-semibold hover:text-accent transition">
-            +7 (495) 123-45-67
+          <a href="tel:+73432873058" className="text-white text-sm md:text-base font-semibold hover:text-accent transition">
+            +7 (343) 287-30-58
           </a>
           <div className="flex gap-3">
             <Button size="sm" variant="ghost" className="text-white hover:bg-white/10">

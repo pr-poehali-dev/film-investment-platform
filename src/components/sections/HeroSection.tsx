@@ -46,9 +46,47 @@ export default function HeroSection() {
           <br />
           24/7 без простоев и поломок
         </h1>
-        <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed">
+        <p className="text-lg sm:text-xl md:text-2xl text-white/90 leading-relaxed mb-10">
           «Пумори 360» — регулярное обслуживание, быстрая поддержка и предсказуемые расходы
         </p>
+
+        <Button 
+          onClick={scrollToForm} 
+          size="lg" 
+          className="bg-accent hover:bg-accent/90 text-white font-bold shadow-xl hover:scale-105 transition-transform w-[220px] h-[56px] text-lg"
+        >
+          <Icon name="Wrench" className="w-5 h-5 mr-2" />
+          Получить бесплатный аудит
+        </Button>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10 text-left max-w-4xl mx-auto">
+          <div className="flex items-start gap-3">
+            <Icon name="Check" className="w-5 h-5 text-success flex-shrink-0 mt-1" />
+            <div>
+              <p className="font-semibold text-sm">Платите от 30,000 ₽/мес</p>
+              <p className="text-white/80 text-xs">всё включено</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <Icon name="Check" className="w-5 h-5 text-success flex-shrink-0 mt-1" />
+            <div>
+              <p className="font-semibold text-sm">Реакция от 1 часа</p>
+              <p className="text-white/80 text-xs">по договору SLA</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <Icon name="Check" className="w-5 h-5 text-success flex-shrink-0 mt-1" />
+            <div>
+              <p className="font-semibold text-sm">Запчасти на складе</p>
+              <p className="text-white/80 text-xs">доставка за 4 часа</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-12 flex flex-col items-center animate-bounce-slow">
+          <p className="text-white/70 text-sm mb-2">Узнать, как это работает</p>
+          <Icon name="ChevronDown" className="w-8 h-8 text-white/60" />
+        </div>
       </div>
     </section>
   );

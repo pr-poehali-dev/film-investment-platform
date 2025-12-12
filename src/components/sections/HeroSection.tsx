@@ -41,10 +41,6 @@ export default function HeroSection() {
       </nav>
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center text-white animate-fade-in-up">
-        <p className="text-accent text-lg font-semibold mb-4">
-          Единственная в России подписка на сервис ЧПУ-оборудования
-        </p>
-
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
           Сэкономьте до 4.7M₽ в год
           <br />

@@ -40,8 +40,8 @@ export default function Header() {
 
         <div className="hidden lg:flex items-center gap-4">
           <div className="text-right">
-            <a href="tel:+73432873058" className="text-sm font-semibold text-foreground hover:text-primary transition">
-              +7 (343) 287-30-58
+            <a href="tel:+73432875737" className="text-sm font-semibold text-foreground hover:text-primary transition">
+              +7 (343) 287-57-37
             </a>
             <p className="text-xs text-muted-foreground">Пн-Пт: 9:00-18:00</p>
           </div>
@@ -84,8 +84,8 @@ export default function Header() {
               Контакты
             </button>
             <div className="py-3 border-t mt-2">
-              <a href="tel:+73432873058" className="text-sm font-semibold text-foreground hover:text-primary transition">
-                +7 (343) 287-30-58
+              <a href="tel:+73432875737" className="text-sm font-semibold text-foreground hover:text-primary transition">
+                +7 (343) 287-57-37
               </a>
               <p className="text-xs text-muted-foreground mt-1">Пн-Пт: 9:00-18:00</p>
             </div>

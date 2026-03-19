@@ -51,8 +51,8 @@ export default function Footer() {
             <h4 className="font-bold mb-4">Контакты</h4>
             <div className="space-y-3 text-sm">
               <p className="text-white/60">620085, г. Екатеринбург, ул. Монтерская, стр. 3, оф. 206/1</p>
-              <a href="tel:+73432873058" className="block text-white hover:text-accent transition">
-                +7 (343) 287-30-58
+              <a href="tel:+73432875737" className="block text-white hover:text-accent transition">
+                +7 (343) 287-57-37
               </a>
               <a href="mailto:pii@pumori.ru" className="block text-white hover:text-accent transition">
                 pii@pumori.ru

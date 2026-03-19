@@ -165,8 +165,8 @@ export default function ContactForm() {
             <div className="bg-white rounded-2xl p-8 shadow-lg">
               <h3 className="text-2xl font-bold mb-6">📞 Или позвоните нам:</h3>
 
-              <a href="tel:+73432873058" className="text-3xl font-bold text-primary hover:text-primary/80 block mb-2">
-                +7 (343) 287-30-58
+              <a href="tel:+73432875737" className="text-3xl font-bold text-primary hover:text-primary/80 block mb-2">
+                +7 (343) 287-57-37
               </a>
               <p className="text-muted-foreground mb-6">Пн-Пт: 9:00-18:00</p>
 

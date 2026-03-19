@@ -51,8 +51,8 @@ export default function NewFooter() {
             <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">КОНТАКТЫ</h4>
             <div className="space-y-3 text-sm">
               <p>620085, г. Екатеринбург, ул. Монтерская, стр. 3, оф. 206/1</p>
-              <a href="tel:+73432873058" className="block text-white hover:text-accent transition font-semibold">
-                +7 (343) 287-30-58
+              <a href="tel:+73432875737" className="block text-white hover:text-accent transition font-semibold">
+                +7 (343) 287-57-37
               </a>
               <a href="mailto:pii@pumori.ru" className="block hover:text-white transition">
                 pii@pumori.ru
